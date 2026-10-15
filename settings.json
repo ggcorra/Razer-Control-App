@@ -1,0 +1,159 @@
+{
+    "theme": "dark",
+    "active_profile": "minecraft",
+    "profiles": {
+        "Gaming": {
+            "dpi": 800,
+            "dpi_stages": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+            ],
+            "polling_rate": 1000,
+            "remapping": {
+                "button_dpi": {
+                    "action": "cycle",
+                    "type": "dpi_cycle"
+                },
+                "button_left": {
+                    "action": "left_click",
+                    "type": "default"
+                },
+                "button_middle": {
+                    "action": "middle_click",
+                    "type": "default"
+                },
+                "button_right": {
+                    "action": "right_click",
+                    "type": "default"
+                },
+                "button_x1": {
+                    "type": "default"
+                },
+                "button_x2": {
+                    "action": "forward",
+                    "type": "default"
+                }
+            }
+        },
+        "Lavoro": {
+            "dpi": 800,
+            "dpi_stages": [
+                400,
+                800,
+                1200,
+                1600
+            ],
+            "polling_rate": 500,
+            "remapping": {
+                "button_left": {
+                    "type": "default",
+                    "action": "left_click"
+                },
+                "button_right": {
+                    "type": "default",
+                    "action": "right_click"
+                },
+                "button_middle": {
+                    "type": "default",
+                    "action": "middle_click"
+                },
+                "button_x1": {
+                    "type": "key_combo",
+                    "keys": [
+                        "ctrl",
+                        "c"
+                    ],
+                    "label": "Copia"
+                },
+                "button_x2": {
+                    "type": "key_combo",
+                    "keys": [
+                        "ctrl",
+                        "v"
+                    ],
+                    "label": "Incolla"
+                },
+                "button_dpi": {
+                    "type": "dpi_cycle",
+                    "action": "cycle"
+                }
+            }
+        },
+        "minecraft": {
+            "dpi": 800,
+            "dpi_stages": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+            ],
+            "polling_rate": 1000,
+            "remapping": {
+                "button_dpi": {
+                    "type": "default"
+                },
+                "button_left": {
+                    "action": "left_click",
+                    "type": "default"
+                },
+                "button_middle": {
+                    "action": "middle_click",
+                    "type": "default"
+                },
+                "button_right": {
+                    "action": "right_click",
+                    "type": "default"
+                },
+                "button_x1": {
+                    "interval_ms": 80,
+                    "target_button": "right",
+                    "type": "rapid_fire"
+                },
+                "button_x2": {
+                    "interval_ms": 80,
+                    "target_button": "left",
+                    "type": "rapid_fire"
+                }
+            }
+        }
+    },
+    "autoclicker": {
+        "interval_ms": 50,
+        "randomize": false,
+        "random_jitter_ms": 10,
+        "button": "left",
+        "toggle_hotkey": "F6"
+    },
+    "hotkeys": {
+        "switch_profile": "F7",
+        "autoclicker_toggle": "F6",
+        "macro_record_toggle": "F9",
+        "macro_play_toggle": "F10"
+    },
+    "macros": {
+        "Esempio Rapid Fire": {
+            "name": "Esempio Rapid Fire",
+            "loop_count": 5,
+            "actions": [
+                {
+                    "type": "mouse_down",
+                    "button": "left",
+                    "delay": 0.05
+                },
+                {
+                    "type": "mouse_up",
+                    "button": "left",
+                    "delay": 0.05
+                }
+            ]
+        }
+    },
+    "notifications": {
+        "battery_low_warning": true,
+        "battery_threshold": 20
+    }
+}
